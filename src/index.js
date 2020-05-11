@@ -11,11 +11,6 @@
  */
 
 /**
- * Core functions
- * @namespace core
- */
-
-/**
  * Utility Functions
  * @namespace util
  */

@@ -17,7 +17,6 @@ import construct from '../util/construct'
  * @param {(Object.<(string|number|bigint)>|Array.<(string|number|bigint)>|string|number|bigint)=} fallback - A fallback value for when the object passed to the returned function does not contain a marginTop value
  * @returns {function(props)} Component props passed by styled-components
  * @name marginTop
- * @memberOf core
  */
 export default (fallback) => ({ marginTop, theme }) =>
   construct(marginTop || fallback, theme, 'margin-top')
